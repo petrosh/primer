@@ -3,6 +3,7 @@
 #  "*.map",
 #  "*.scss"
 #]
+baseurl: ""
 
 permalink:    pretty
 
