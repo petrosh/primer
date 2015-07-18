@@ -1,0 +1,17 @@
+#exclude:      [
+#  "README.md",
+#  "*.map",
+#  "*.scss"
+#]
+
+permalink:    pretty
+
+highlighter:  rouge
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
+
+github:
+  repo: https://github.com/petrosh/primer
