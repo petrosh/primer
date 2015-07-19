@@ -7,7 +7,7 @@ url: //petrosh.github.io/primer
 baseurl: /primer
 permalink: pretty
 # or permalink: /:categories/:title/
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
   auto_ids: true
