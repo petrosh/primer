@@ -1,16 +1,13 @@
 ---
-# comment to parse file
 layout: default
 title: Home
 ---
-<<<<<<< HEAD
-=======
 
 <div class="columns docs-layout">
   <div class="one-fourth column">
 
     <nav class="menu docs-menu">
-      <a class="menu-item" href="/layout/">
+      <a class="menu-item" href="{{ site.baseurl }}/layout/">
       Scaffolding
       </a>
     </nav>
@@ -63,4 +60,3 @@ title: Home
     </div>
   </div>
 </div>
->>>>>>> origin/master
