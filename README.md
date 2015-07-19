@@ -35,7 +35,7 @@ body {
 
 ### Deployment
 
-```shell
+```sh
 $git branch -D gh-pages
 Deleted branch gh-pages (was 7f93c5e).
 $git checkout -b gh-pages
