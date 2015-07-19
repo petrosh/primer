@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 exclude:      [
   "README.md",
   "*.map",
@@ -13,5 +14,20 @@ markdown: kramdown
 kramdown:
   auto_ids: true
 
+=======
+#exclude:      [
+#  "README.md",
+#  "*.map",
+#  "*.scss"
+#]
+url: //petrosh.github.io/primer
+baseurl: /primer
+permalink: pretty
+# or permalink: /:categories/:title/
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  auto_ids: true
+>>>>>>> origin/master
 github:
   repo: https://github.com/petrosh/primer
