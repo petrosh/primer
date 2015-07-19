@@ -36,7 +36,14 @@ body {
 ### Deployment
 
 ```bash
-git subtree push --prefix _site origin gh-pages
+$git branch -D gh-pages
+Deleted branch gh-pages (was 7f93c5e).
+$git checkout -b gh-pages
+Switched to a new branch 'gh-pages'
+$git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+$git subtree push --prefix _site origin gh-pages
 git push using:  origin gh-pages
 -n 1/      21 (0)
 -n 2/      21 (1)
