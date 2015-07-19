@@ -4,7 +4,7 @@ Primer http://primercss.io/ install. Repo: https://github.com/primer/primer.
 #### Notes
 
 * `node v0.12.7`
-* `node v2.11.3`
+* `npm v2.11.3`
 * `bower v1.4.1`
 * `Sass v3.4.13`
 
