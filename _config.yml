@@ -1,3 +1,15 @@
-url: "http://petrosh.github.io/primer"
-baseurl: "/primer"
-permalink: "pretty"
+#exclude:      [
+#  "README.md",
+#  "*.map",
+#  "*.scss"
+#]
+url: //petrosh.github.io/primer
+baseurl: /primer
+permalink: pretty
+# or permalink: /:categories/:title/
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  auto_ids: true
+github:
+  repo: https://github.com/petrosh/primer
