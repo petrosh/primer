@@ -3,17 +3,13 @@
 #  "*.map",
 #  "*.scss"
 #]
-url: //petrosh.github.io/primer
-baseurl: ""
-
+url:          //petrosh.github.io/primer
+baseurl:      /primer
 permalink:    pretty
-
+# or permalink: /:categories/:title/
 highlighter:  rouge
-
-markdown: kramdown
-
+markdown:     kramdown
 kramdown:
-  auto_ids: true
-
+  auto_ids:   true
 github:
-  repo: https://github.com/petrosh/primer
+  repo:       https://github.com/petrosh/primer
