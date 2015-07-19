@@ -3,6 +3,7 @@
 #  "*.map",
 #  "*.scss"
 #]
+url: //petrosh.github.io/primer
 baseurl: ""
 
 permalink:    pretty

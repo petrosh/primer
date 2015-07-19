@@ -1,5 +1,5 @@
 # primer
-Primer install
+Primer http://primercss.io/ install. Repo: https://github.com/primer/primer.
 
 #### Workflow
 * `node v0.12.7`
