@@ -13,7 +13,6 @@
       {{ page.title }} &middot; Primer
     </title>
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
     <!-- Favicons -->
@@ -24,7 +23,7 @@
     <header class="masthead">
     <div class="container">
       <a href="{{ site.baseurl }}/" class="masthead-logo">
-        <span class="mega-octicon octicon-package"></span>
+        <span class="mega-octicon octicon-beaker"></span>
         Primer
       </a>
 
@@ -50,6 +49,8 @@
     </div>
   {% endif %}
 
+  {% if page.title != 'Home' %}{% include pagehead.html %}{% endif %}
+
   <div class="container">
     {{ content }}
 
@@ -59,5 +60,8 @@
     </footer>
   </div>
 
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="{{ site.baseurl }}/js/anchor.js"></script>
+  <script src="{{ site.baseurl }}/js/script.js"></script>
 </body>
 </html>

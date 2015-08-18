@@ -1,3 +1,25 @@
+---
+---
+
+/*
+ * Primer documentation styles
+ * http://primercss.io
+ *
+ * Released under MIT license. Copyright 2015 GitHub, Inc.
+ */
+
+//
+// Import Primer itself
+//
+
+@import "primer";
+@import "octicons/octicons.css";
+@import "markdown";
+@import "anchor";
+@import "syntax";
+@import "docs";
+@import "pagehead";
+
 html {
   overflow-y: scroll;
 }

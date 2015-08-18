@@ -19,6 +19,7 @@ Add `_syntax.css`
 
 ### CSS
 
+Compile with `scss -w css/style.scss`
 For fixed `masthead`:
 
 ```css
