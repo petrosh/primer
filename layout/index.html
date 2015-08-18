@@ -13,7 +13,6 @@
       Layout &middot; Primer
     </title>
 
-    <link rel="stylesheet" href="/primer/css/docs.css">
     <link rel="stylesheet" href="/primer/css/style.css">
 
     <!-- Favicons -->
@@ -24,7 +23,7 @@
     <header class="masthead">
     <div class="container">
       <a href="/primer/" class="masthead-logo">
-        <span class="mega-octicon octicon-package"></span>
+        <span class="mega-octicon octicon-beaker"></span>
         Primer
       </a>
 
@@ -39,12 +38,32 @@
 
   
 
+  <div class="pagehead">
+  <div class="container">
+    <nav class="pagehead-nav" role="navigation">
+      <a href="/styleguide" aria-selected="true" class="js-selected-navigation-item selected pagehead-nav-item" data-selected-links=" /styleguide">
+        <span class="octicon octicon-home"></span> Overview
+</a>      <a href="http://primercss.io" class="js-selected-navigation-item pagehead-nav-item" data-selected-links="css_styleguide http://primercss.io">
+        <span class="octicon octicon-paintcan"></span> Primer (HTML &amp; CSS)
+</a>      <a href="/styleguide/javascript" class="js-selected-navigation-item pagehead-nav-item" data-selected-links=" /styleguide/javascript">
+        <span class="octicon octicon-code"></span> JavaScript
+</a>      <a href="/styleguide/ruby" class="js-selected-navigation-item pagehead-nav-item" data-selected-links=" /styleguide/ruby">
+        <span class="octicon octicon-ruby"></span> Ruby
+</a>      <a href="/styleguide/mobile" class="js-selected-navigation-item pagehead-nav-item" data-selected-links=" /styleguide/mobile">
+        <span class="octicon octicon-device-mobile"></span> Mobile
+</a>    </nav>
+
+    <h1>Styleguide</h1>
+  </div>
+</div>
+
+
   <div class="container">
     <div class="columns docs-layout">
   <div class="one-fourth column">
     
       <nav class="menu docs-menu">
-  <a class="menu-item " href="/primer/scaffolding/">
+  <a class="menu-item " href="/primer/layout/#contents">
     Scaffolding
   </a>
   <a class="menu-item selected" href="/primer/layout/">
@@ -58,7 +77,6 @@
     <h1 class="page-title">
       Layout
     </h1>
-    <div class="markdown-body">
       <p>Primer’s layout includes basic page containers and a single-tiered, fraction-based grid system. That sounds more complicated than it really is though—it’s just containers, rows, and columns.</p>
 
 <p>You can find all the below styles in <code>_layout.scss</code>.</p>
@@ -67,12 +85,10 @@
 
 <ul id="markdown-toc">
   <li><a href="#contents">Contents</a>    <ul>
-      <li><a href="#container">Container</a>        <ul>
-          <li><a href="#example">Example</a></li>
-        </ul>
-      </li>
+      <li><a href="#container">Container</a></li>
     </ul>
   </li>
+  <li><a href="#example">Example</a></li>
 </ul>
 
 <h3 id="container">Container</h3>
@@ -83,7 +99,7 @@
   <span class="c">&lt;!-- contents here --&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
-<h4 id="example">Example</h4>
+<h2 id="example">Example</h2>
 
 <div class="docs-example clearfix"><div class="container">
   <div class="columns">
@@ -161,7 +177,6 @@
 <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
 
-    </div>
   </div>
 </div>
 
@@ -172,5 +187,8 @@
     </footer>
   </div>
 
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="/primer/js/anchor.js"></script>
+  <script src="/primer/js/script.js"></script>
 </body>
 </html>
